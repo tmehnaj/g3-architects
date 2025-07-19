@@ -132,7 +132,15 @@ main>section {
 #quick-list {
     font-weight: 500;
 }
+/* some fact styles */
 
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact{
+    border: 1px solid ;
+}
 /* navbar responsive */
 @media screen and (max-width: 576px) {
     html {
